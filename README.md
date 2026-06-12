@@ -1,10 +1,5 @@
 # 💼 Personal Portfolio Website
 
-## 📸 Portfolio Preview
-
-![Portfolio Preview](images/portfolio-preview.png)
-
----
 
 ## 🌟 Overview
 
@@ -13,6 +8,12 @@ Welcome to my Personal Portfolio Website!
 This portfolio was designed and developed to showcase my technical skills, projects, achievements, and professional journey as a developer. It serves as a digital portfolio where recruiters, developers, and visitors can explore my work, learn about my technical expertise, download my resume, and connect with me directly.
 
 The website was built from scratch with a strong focus on responsive design, modern UI principles, user experience, and performance optimization.
+
+---
+
+## 📸 Portfolio Preview
+
+![Portfolio Preview](images/portfolio-preview.png)
 
 ---
 
@@ -129,7 +130,7 @@ images/
 
 ### 🚗 BMW Website Clone
 
-![BMW Website Clone](images/bmw-project.png)
+![BMW Website Clone](images/bmw-clone.png)
 
 A responsive multi-page clone inspired by the official BMW website, developed using modern front-end development practices and responsive design principles.
 
@@ -146,7 +147,7 @@ A responsive multi-page clone inspired by the official BMW website, developed us
 
 ### 👁️ Eye Retina Disease Classification
 
-![Eye Retina Disease Classification](images/retina-project.png)
+![Eye Retina Disease Classification](images/retina-classification.png)
 
 An AI-powered deep learning project developed to classify retinal diseases from fundus images and assist in early disease detection.
 
