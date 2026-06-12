@@ -824,9 +824,6 @@
             const track = document.getElementById('marqueeTrack');
             if (!track) return;
 
-            // On mobile: disable JS animation, let CSS overflow-x scroll handle it
-            if (window.innerWidth <= 768) return;
-
             let offset = 0;
             const speed = 0.6;
             let paused = false;
