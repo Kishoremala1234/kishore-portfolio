@@ -654,6 +654,7 @@ body {
     background: var(--card-bg);
     border: 1px solid var(--border);
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .project-card:hover {
@@ -756,6 +757,10 @@ body {
     height: 3px;
     background: linear-gradient(90deg, var(--primary), #7bb3ff);
     border-radius: 20px 20px 0 0;
+}
+
+.stat-card {
+    cursor: pointer;
 }
 
 .stat-card:hover {
@@ -1436,8 +1441,33 @@ body {
 }
 
 @media(max-width: 768px) {
+    .projects-marquee-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .projects-marquee-wrap::-webkit-scrollbar {
+        display: none;
+    }
+
+    .projects-marquee-wrap::before,
+    .projects-marquee-wrap::after {
+        display: none;
+    }
+
+    .projects-marquee-track {
+        transform: none !important;
+        width: max-content;
+        padding: 0 16px;
+    }
+
     .projects-marquee-track .project-card {
         width: 80vw;
+    }
+
+    .marquee-btn {
+        display: none;
     }
 }
 /* ===== IN PROGRESS BADGE ===== */
